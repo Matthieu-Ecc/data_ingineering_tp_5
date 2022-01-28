@@ -13,6 +13,9 @@ pipeline {
             steps {
                 echo 'Run the App'
                 bat 'dir'
+                dir('my-app-pt_5/'){
+                    bat 'docker-compose up'
+                }
             }
         }
     }
