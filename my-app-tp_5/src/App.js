@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> this is my react docker and jenkins build
+          Edit <code>src/App.js</code> this is my react docker and jenkins build new push
         </p>
         <a
           className="App-link"
