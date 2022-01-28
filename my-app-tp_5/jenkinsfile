@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                echo 'Compile the source code' 
+                echo 'Compile the source code'
+                bat 'cd data_ingineering_tp_5/my-app-tp_5/' 
                 bat 'docker-compose up -d --build'
             }
         }
