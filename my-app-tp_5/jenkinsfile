@@ -4,9 +4,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compile the source code'
-                bat 'dir'
-                bat 'ls'
-                bat 'cd data_ingineering_tp_5/my-app-tp_5/' 
+                bat 'my-app-tp_5/' 
                 bat 'docker-compose up -d --build'
             }
         }
