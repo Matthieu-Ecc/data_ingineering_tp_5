@@ -4,13 +4,14 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compile the source code'
-                bat 'cd my-app-tp_5/' 
+                dir 'my-app-tp_5/' 
                 bat 'docker-compose up -d --build'
             }
         }
         stage('Run') {
             steps {
                 echo 'Run the App'
+                dir 'my-app-tp_5/'
                 bat 'docker-compose up'
             }
         }
