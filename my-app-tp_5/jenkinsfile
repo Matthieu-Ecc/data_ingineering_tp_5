@@ -4,13 +4,13 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compile the source code' 
-                Run 'docker-compose up -d --build'
+                bat 'docker-compose up -d --build'
             }
         }
         stage('Run') {
             steps {
                 echo 'Run the App'
-                Run 'docker-compose up'
+                bat 'docker-compose up'
             }
         }
     }
