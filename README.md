@@ -1,7 +1,8 @@
 # data_ingineering_tp_5
 
-Build a Dockerized node application using a Jenkins pipeline Échéance :30 janvier 2022 23:59 
-Instructions 
+Build a Dockerized node application using a Jenkins pipeline Échéance :30 janvier 2022 23:59
+
+Instructions :
 
 On a github repo, create a sample node application. for example, it could be a very basic react app, using the command:  
 
