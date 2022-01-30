@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> this is my react docker and jenkins build automation? 
+          Edit <code>src/App.js</code> this is my react docker and jenkins build automation v2? 
         </p>
         <a
           className="App-link"
